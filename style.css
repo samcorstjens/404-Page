@@ -38,5 +38,9 @@ a{
     100% { color:#dc1414; }
 }
 img:hover{
-  border-width : large;
+  border-color:#f1fc16;
 }
+a:hover{
+color:#dc1414;
+}
+
