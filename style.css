@@ -1,5 +1,7 @@
 body{
 background-color :#141411;
+  height: 100%;
+    margin: 0;
 }
 
 h1{
@@ -43,5 +45,12 @@ img:hover{
 a:hover{
 color:#dc1414;
 border-color:#dc1414;
+}
+.back {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwS0Jc-_qF_IEEXrdPMpWIump0x_acz-1Q9OhRNyCdGATPKPg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
