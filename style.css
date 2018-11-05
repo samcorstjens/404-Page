@@ -39,8 +39,7 @@ a{
 }
 .myButtonLink {
 	display: block;
-	width: 100px;
-	height: 100px;
+	background: url('https://static2.bigstockphoto.com/1/5/2/large1500/25171421.jpg') bottom;
 	text-indent: -99999px;
 }
 .myButtonLink:hover {
