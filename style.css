@@ -26,6 +26,20 @@ h3{
   font-family:"Times New Roman", Arial, Serif;
   color:#dc1414;
   -webkit-animation: color-change 1s infinite;
+  animation-duration: 3s;
+  animation-name: slide;
+}
+
+@keyframes slide{
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 img{
   margin-left: 375px;
