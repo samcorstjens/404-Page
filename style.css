@@ -1,0 +1,39 @@
+body{
+  background-color:#1f1c1c;
+}
+
+h1{
+  text-align : center;
+  font-size : 75px;
+  font-weight : bold;
+  font-style : italic;
+  font-family:"Times New Roman", Arial, serif;
+  color:#dc1414;
+  -webkit-animation: color-change 1s infinite;
+}
+h2{
+  text-align:center;
+  font-size:50px;
+  font-style:italic;
+  font-family:"Times New Roman", Arial, Serif;
+  color:#dc1414;
+  -webkit-animation: color-change 1s infinite;
+}
+img{
+  margin-left: 375px;
+  border-style:solid;
+  border-width: medium;
+  border-color: #dc1414;
+}
+a{
+  font-size:large;
+  color:#a3b9ff;
+  border-style:solid;
+  border-width: medium;
+  border-color: #a3b9ff;
+}
+@-webkit-keyframes color-change {
+    0% { color:#dc1414 ; }
+    50% { color:#f1fc16; }
+    100% { color:#dc1414; }
+}
