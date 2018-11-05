@@ -62,11 +62,4 @@ border-color:#dc1414;
 .fade:hover {
    opacity: 0.5;
 }
- div {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
 
