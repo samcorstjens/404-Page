@@ -37,3 +37,6 @@ a{
     50% { color:#f1fc16; }
     100% { color:#dc1414; }
 }
+img:hover{
+  border-width : large;
+}
