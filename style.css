@@ -25,7 +25,7 @@ h3{
   font-family:"Times New Roman", Arial, Serif;
   color:#dc1414;
   -webkit-animation: color-change 1s infinite;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-name: slide;
 }
 
