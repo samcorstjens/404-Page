@@ -60,5 +60,13 @@ border-color:#dc1414;
    -webkit-transition: opacity .25s ease-in-out;
 }
 .fade:hover {
-      opacity: 0.5;
-      }
+   opacity: 0.5;
+}
+ div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
