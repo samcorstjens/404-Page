@@ -37,3 +37,12 @@ a{
     50% { color:#f1fc16; }
     100% { color:#dc1414; }
 }
+.myButtonLink {
+	display: block;
+	width: 100px;
+	height: 100px;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
