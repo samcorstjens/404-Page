@@ -1,1 +1,1 @@
-[404](https://samcorstjens.github.io/404-Page/)
+[404](404-pagina.html)
