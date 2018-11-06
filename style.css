@@ -25,6 +25,7 @@ h2{
   font-family:"Times New Roman", Arial, Serif;
   color:#dc1414;
   -webkit-animation: color-change 1s infinite;
+  animation-direction: alternate;
   animation-duration: 5s;
   animation-name: slide;
 }
@@ -35,7 +36,7 @@ h2{
   color:#f1fc16;
   -webkit-animation: color-change 1s infinite;
   animation-duration: 10s;
-  animation-direction : reverse;
+  animation-direction : alternate-reverse;
   animation-name: slide;
 }
 .h3style3{
