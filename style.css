@@ -19,20 +19,40 @@ h2{
   color:#dc1414;
   -webkit-animation: color-change 1s infinite;
 }
-h3{
+.h3style1{
   font-size:45px;
   font-weight: bold;
   font-family:"Times New Roman", Arial, Serif;
   color:#dc1414;
   -webkit-animation: color-change 1s infinite;
+  animation-duration: 5s;
+  animation-name: slide;
+}
+.h3style2{
+  font-size:45px;
+  font-weight: bold;
+  font-family:"Times New Roman", Arial, Serif;
+  color:#f1fc16;
+  -webkit-animation: color-change 1s infinite;
   animation-duration: 10s;
+  animation-direction : reverse;
+  animation-name: slide;
+}
+.h3style3{
+  font-size:45px;
+  font-weight: bold;
+  font-family:"Times New Roman", Arial, Serif;
+  color:#dc1414;
+  -webkit-animation: color-change 1s infinite;
+  animation-duration: 15s;
+  animation-direction : alternate;
   animation-name: slide;
 }
 
 @keyframes slide{
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 300%;
   }
 
   to {
@@ -41,31 +61,19 @@ h3{
   }
 }
 img{
-  margin-left: 375px;
+
   border-style:solid;
-  border-width: medium;
+  border-width: thick;
   border-color: #dc1414;
-  
+
 }
-a{
-  font-size:large;
-  color:#a3b9ff;
-  border-style:solid;
-  border-width: medium;
-  border-color: #a3b9ff;
-}
+
 @-webkit-keyframes color-change {
     0% { color:#dc1414 ; }
     50% { color:#f1fc16; }
     100% { color:#dc1414; }
 }
-img:hover{
-  border-color:#f1fc16;
-}
-a:hover{
-color:#dc1414;
-border-color:#dc1414;
-}
+
 .fade {
    opacity: 1;
    transition: opacity .25s ease-in-out;
@@ -86,6 +94,7 @@ border-color:#dc1414;
   border-style:solid;
   border-radius:20px;
   box-shadow: 0 9px #999;
+  float:right;
 }
 .buttonstyle:hover{
 background-color :#dc1414;
@@ -95,4 +104,32 @@ background-color :#dc1414;
   background-color:#dc1414;
   box-shadow :0 5px #666;
   transform : translateY(4px);
+}
+
+#afb {
+  position : relative;
+  height:300px;
+  width:500px;
+  margin:0 auto;
+}
+
+#afb img{
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+  }
+
+#afb img.afbeelding2:hover {
+    opacity:0;
+}
+#end{
+  text-align:center;
+  font-size:30px;
+  font-style:italic;
+  font-family:"Times New Roman", Arial, Serif;
+  color:#dc1414;
+  -webkit-animation: color-change 1s infinite;
 }
